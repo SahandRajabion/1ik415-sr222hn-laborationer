@@ -48,3 +48,6 @@
 {"ts":1378840855232,"patch":[[{"diffs":[[0,">\n\n    \n"],[1,"</ol>"],[0,"\n\n<dl> \n"]],"start1":1290,"start2":1290,"length1":16,"length2":21}]],"length":2189,"saved":false}
 {"ts":1378840900045,"patch":[[{"diffs":[[0,">\n\n    \n"],[-1,"</ol>"],[0,"\n\n<dl> \n"]],"start1":1290,"start2":1290,"length1":21,"length2":16},{"diffs":[[0,"\n</dl>\n\n"],[-1,"<ol>"],[0,"\n<li> Lä"]],"start1":2086,"start2":2086,"length1":20,"length2":16}]],"length":2180,"saved":false}
 {"ts":1378841049635,"patch":[[{"diffs":[[0,"er</li>\n"],[1,"<ul>                    \n <li><a href=\"../index.html\">Bilder i senaste blogginlägget</a> </li>  "],[0,"\n<li>Vid"]],"start1":2132,"start2":2132,"length1":16,"length2":112}]],"length":2276,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1378937841215,"patch":[[{"diffs":[[0,"<li>"],[-1,"Video"],[1,"<a href=\"../index.html/#Video test\">Video</a>"],[0,"</li"]],"start1":2237,"start2":2237,"length1":13,"length2":53}]],"length":2316,"saved":false}
+{"ts":1378938177214,"patch":[[{"diffs":[[0,"</li>  \n"],[1," </ul>\n"],[0,"<li><a h"]],"start1":2229,"start2":2229,"length1":16,"length2":23}]],"length":2323,"saved":false}
+{"ts":1378938232793,"patch":[[{"diffs":[[0,"dex.html"],[1,"/#Picture Below, Created with SVG-edit"],[0,"\">Bilder"]],"start1":2184,"start2":2184,"length1":16,"length2":54}]],"length":2361,"saved":false}
