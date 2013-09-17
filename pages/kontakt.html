@@ -40,16 +40,16 @@
    
 <fieldset style=width:300px;>
 <legend>Formulär</legend>
-         
+      
 Förnamn:<br>
-<input type="text" id="Förnamn"> <br>
+<input type="text" id="Förnamn" name="Förnamn"> <br>
 
 Efternamn:<br>
-<input type="text" id="Efternamn"><br>
+<input type="text" id="Efternamn" name="Efternamn"><br>
 
-<label for="select"><br> När är du född:</label><br>
+<label for="hurgammal"> När är du född:</label><br>
 
-<select name="år" id="hur gammal">
+<select name="år" id="hurgammal">
 <option> Välj  </option>
 <option value="1974"> 1974 </option>
 <option value="1975"> 1975 </option>
@@ -76,17 +76,17 @@ Efternamn:<br>
 
 
 
-<fieldset style=width:50px;>
+
 E-postadress:<br>
-<input type="text" id="Epost"> <br>
-<legend>Typ av Epost?</legend><br>
-<input type="checkbox" name="typavmejl" id="gmail" value="gmail">
+<input type="text" id="Epost" name="Epost"> <br>
+<p>Typ av Epost?</p>
+<input type="checkbox" name="typavmejl[]" id="gmail" value="gmail">
 <label for="gmail">Gmail</label><br>
 
-<input type="checkbox" name="typavmejl" id="hotmail" value="hotmail">
+<input type="checkbox" name="typavmejl[]" id="hotmail" value="hotmail">
 <label for="hotmail">Hotmail</label><br> 
 
-<input type="checkbox" name="typavmejl" id="@lnu.se" value="@lnu.se">
+<input type="checkbox" name="typavmejl[]" id="@lnu.se" value="@lnu.se">
 <label for="@lnu.se">@lnu.se</label><br>
 
 Meddelande:<br>
