@@ -9,7 +9,7 @@
 }
 
 #header {
-    background-color : red;
+   
     width: 900px;
     height: 100px;
     position: relative;
@@ -17,7 +17,8 @@
     border-bottom: 2px solid #000000;
     
 }
-#rightnav {
+
+rightnav {
     
     float:right;
     width: 140px;
@@ -25,23 +26,21 @@
     background-color: #09F;
     border-left: 1px dashed #694717;
     }
-#body {
+    
+body {
+    
     margin:auto;
     width:600px;
     padding:10px 0px 0px 10px;
 }
 
-#leftnav {
+leftnav {
     
-    float:left;
-    width: 140px;
-    height: 400px;
-    background-color: #09F;
-    border-right: 1px dashed #694717;
+  
 }
 
 
-#footer {
+footer {
 	clear: both;
    background-color:#6CF;
 }
