@@ -1,51 +1,74 @@
 
 body {
-color:White;
-background-image:url(../css/pics/background.jpg); overflow:auto;}
+color:White;           /* Ändrar body-taggens innehåll till vit färg*/
+background-image:url(../css/pics/background.jpg); overflow:auto;}   /*Ändrar background till .jpg fil på hela bodyn*/
 
-h1 {text-align:center;	font-family: "Helvetica", sans-serif;}
+h1 {text-align:center;	font-family: "Helvetica", sans-serif;} /*Ändrar teckensnitt på alla h1 rubriker*/
 
 
 #container {
     
 max-width: 960px;
 
-	overflow:auto;
-	border:2px solid;
-  background:url(../css/pics/Black-Wood.jpg) ;
-	margin:10px auto;
+overflow:auto;  /* bestämmer hur innehållet får plats, auto= om innehåll går över utrymmet tillkommer en scroll-bar */
+border:2px solid;                                              /* Ram */
+background:url(../css/pics/Black-Wood.jpg) ;                /*Containerns background*/
+margin:auto;  /* Centrerar innehållet */
 	
 }
 
 #header{ 
-    height: 150px;
-    text-align:center;
-
+    height: 130px;   /* Höjd på headern */
+    text-align:center; /* Centrerar texten*/
+    
 }
 
+#header2 { 
+background-image: url(../css/pics/globe.jpg); 
+background-repeat: no-repeat;
+background-position: right top; 
+height:150px;
 
+}
 #content{
 
-margin-left:230px;
+margin-left:230px; /* Flyttar texten i content till vänster*/
 float:left;
-width:500px
-
+width:500px       /* Bredd på content boxen*/
 
 }
 
+.textpic { 
+float:right;    /* bild position mellan text*/
+margin: 10px;   
+}
 
 #leftnav{
  
-    width : 204px;
-    height: 1020px;
+    width : 204px;         /* bredd på left navigation */
+    height: 1020px;       /* höjd på left navigation*/
     float: left;
     background-color:transparent;
-  
+    padding: 5px;
+    
 }
 
+ #asdf { margin-top:700px;}
+ 
+ 
+ .icon:before{content:url(pics/iconsd.png);}  /*ikoner vid varje punkt */
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
 #footer{
-    width:100%;
-	height:80px;
+    width:100%;   /* Sätter bredden på 100% av sidans bredd*/
+	height:80px;         
 	background:transparent;
 	text-align:center;
 	
@@ -53,41 +76,40 @@ width:500px
 }
 
 #menubar{
-    position:fixed;
-    
+position:fixed;  /* gör så att positionen på menyn rullar med scrollern */ 
+
 }
 
-#menubar #holder ul{
-    list-style:none;
+
+#menubar #holder ul{      /* Påverkar ul-taggen som ligger i holder som i sin tur ligger i menubar. */
+    list-style:none;     /* Tar bort prickarna i listan */
     margin:0px;
     padding:0px;
 }
 
-#menubar #holder ul li a{
+#menubar #holder ul li a{   /* Påverkar a-taggen som ligger i li --> ul --> som ligger i holder som i sin tur ligger i menubar */
     
-    text-decoration:none;
+    text-decoration:none;   /* tar bort textens linjerade markering */
     float:left;
     margin-right:5px;
     color:White;
-    border:1px solid White;
+    border:1px solid White;   /* Tillägger ramar runt menyvalen */
     border-bottom:none;
     padding:20px;
     width: 75px;
     text-align:center;
     display:block;
-    background:#69F;
+    background:#69F;   /* Lägger till menyns färg */
     
 }
 
-#menubar #holder ul li a:hover{
+#menubar #holder ul li a:hover{   /* påverkar mus rörelsen över menyn */
     background:#F90;
     color:#FFF;
     text-shadow:1px 1px 1px white;
     
 }
 
-
-#holder ul li a#onlink{
-    background:#FFF
-    color:black;
-    border-bottom: 1px solid #FFF;
+#menubar #holder .active a{   /* Visar vilken flik användaren befinner sig i */
+	background: Blue;
+}
