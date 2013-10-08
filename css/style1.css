@@ -59,12 +59,7 @@ margin: 10px;
  .icon:before{content:url(pics/iconsd.png);}  /*ikoner vid varje punkt */
  
  
- 
- 
- 
- 
- 
- 
+
 
 #footer{
     width:100%;   /* Sätter bredden på 100% av sidans bredd*/
@@ -99,17 +94,37 @@ position:fixed;  /* gör så att positionen på menyn rullar med scrollern */
     width: 75px;
     text-align:center;
     display:block;
-    background:#69F;   /* Lägger till menyns färg */
-    
+    background-color:#69F;   /* Lägger till menyns färg */
+    height:25px;
 }
 
 #menubar #holder ul li a:hover{   /* påverkar mus rörelsen över menyn */
-    background:#F90;
+    background-color:#F90;
     color:#FFF;
     text-shadow:1px 1px 1px white;
     
 }
 
 #menubar #holder .active a{   /* Visar vilken flik användaren befinner sig i */
-	background: Blue;
+	background-color: Blue;
 }
+
+
+/*Sprites*/
+
+#button a { background-repeat: no-repeat;}
+#hem {background-image: url(pics/sprite.png); background-position: 0 -29px;}
+#hem:hover{background-position: 0 20px}
+
+#brev {background-image: url(pics/sprite.png); background-position: 0 -315px;}
+#brev:hover{background-position: 0 -267px}
+
+
+#hammare {background-image: url(pics/sprite.png); background-position: 0 -116px;}
+#hammare:hover{background-position: 0 -70px}
+
+#foto {background-image: url(pics/sprite.png); background-position: 0 -219px;}
+#foto:hover{background-position: 0 -170px}
+
+
+
