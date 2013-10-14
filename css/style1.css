@@ -5,6 +5,8 @@ background-image:url(../css/pics/background.jpg); overflow:auto;}   /*Ändrar ba
 
 h1 {text-align:center;	font-family: "Helvetica", sans-serif;} /*Ändrar teckensnitt på alla h1 rubriker*/
 
+.mobile { width:300px;}
+
 
 #container {
     
@@ -20,16 +22,11 @@ margin:auto;  /* Centrerar innehållet */
 #header{ 
     height: 130px;   /* Höjd på headern */
     text-align:center; /* Centrerar texten*/
-    
+    background-color:transparent;
 }
 
-#header2 { 
-background-image: url(../css/pics/globe.jpg); 
-background-repeat: no-repeat;
-background-position: right top; 
-height:150px;
+#header-mobile{display:none;}
 
-}
 #content{
 
 margin-left:230px; /* Flyttar texten i content till vänster*/
