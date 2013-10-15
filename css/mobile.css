@@ -1,7 +1,7 @@
 
 
 /* mobile styles */
-@media screen and (max-width: 480px) { 
+@media screen { 
 
 
 
@@ -80,7 +80,7 @@ dd{word-wrap: break-word;}                  /*Bryter upp orden och anpassar dem 
 	background: blue;         /* Sätter färgen vid aktivt läge */
 }
 
-#Content {           /* Sätter text stil på innehåll i content, break-word i hela dokumentet, max bredd på 100 % samt döljer scroll */
+#Content {                                                     /* Sätter text stil på innehåll i content, break-word i hela dokumentet, max bredd på 100 % samt döljer scroll */
     font-family: Verdana, Arial, Helvetica, sans-serif;
 	word-wrap: break-word;
 	max-width: 100%;
@@ -98,11 +98,11 @@ th {                                                      /* Sätter textstil sa
 
 #mobile {max-width:100%;}                                 /* max bredd på formuläret */
 
-#footer{ max-width:100%; padding: 5px;}                   /* anger marginal + bredd på footern*/
+#footer{ max-width:100%; padding: 5px;}                   /* Ger en marginal + bredd på footern*/
 }
 
 
-
+@media screen and (orientation:landscape){}
 
 
 
