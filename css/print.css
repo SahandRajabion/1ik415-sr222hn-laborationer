@@ -1,0 +1,36 @@
+
+
+/*Print page CSS*/
+
+
+body{
+    font-family: "Times New Roman", Times, sans-serif;
+    background-color: White;
+    background-image:none;}
+
+p, ul, li, ol, dl,h1, h2,h3,h4,h5,h6 {color:black}
+
+a href {display: none;}
+
+img {display:none;}
+
+tr {color:black;}
+
+p a href {display:none}
+
+a:link { color: black }
+
+a:link:after  { content:" [" attr(href) "] "; }
+   
+
+    
+.button {display:none;}
+.icon {display:none;}
+.movie {display:none;}
+
+#container, #content {width: 100%; margin: 0; float: none;}
+#footer{display:none;}
+#leftnav { display: none;}
+
+
+
