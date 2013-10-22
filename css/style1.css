@@ -19,7 +19,7 @@ margin:auto;  /* Centrerar innehållet */
 	
 }
 
-#header{ 
+header{ 
     height: 130px;   /* Höjd på headern */
     text-align:center; /* Centrerar texten*/
     background-color:transparent;
@@ -27,7 +27,7 @@ margin:auto;  /* Centrerar innehållet */
 
 #header-mobile{display:none;}
 
-#content{
+main{
 
 margin-left:230px; /* Flyttar texten i content till vänster*/
 float:left;
@@ -40,7 +40,7 @@ float:right;    /* bild position mellan text*/
 margin: 10px;   
 }
 
-#leftnav{
+nav{
  
     width : 204px;         /* bredd på left navigation */
     height: 1020px;       /* höjd på left navigation*/
@@ -145,5 +145,14 @@ position:fixed;  /* gör så att positionen på menyn rullar med scrollern */
     font-style: inherit;
     margin-top: 0px;
 }
+
+
+footer
+{   font-style: italic;
+    width: 960px;
+    text-align: left;
+    color: white;
+    font-size: 0.8em;}
+    
 
 

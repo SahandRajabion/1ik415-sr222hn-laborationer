@@ -31,7 +31,7 @@ h2, h3, h4, h5, h6 {                      /*Ändrar teckensnitt på förjande ta
 dd{word-wrap: break-word;}                  /*Bryter upp orden och anpassar dem efter sidans storlek, för dd taggen*/
 
 
-#header {                                       /* Sätter höjd,bredd, border och border färg, samt marginaler för Headern */
+header {                                       /* Sätter höjd,bredd, border och border färg, samt marginaler för Headern */
     display: inline-block;              
 	height:60px;
 	width:100%;                                     
@@ -41,7 +41,7 @@ dd{word-wrap: break-word;}                  /*Bryter upp orden och anpassar dem 
 	
 }
 
-#header h1{                                     
+header h1{                                     
     margin: auto;
 	width:100%;
 	padding-top:20px;
@@ -50,37 +50,37 @@ dd{word-wrap: break-word;}                  /*Bryter upp orden och anpassar dem 
 #header-mobile { font-size: 1em;}        /* Sätter storlek på header-mobile som finns i "Mina Laborationer"*/ 
 
 
-#leftnav {                     /* Sätter max-bredden för vänstra navigationen på 100% av utrymmet, samt sätter den på vänster sida */
+nav  {                     /* Sätter max-bredden för vänstra navigationen på 100% av utrymmet, samt sätter den på vänster sida */
 	max-width: 100%;
 	float: left;     
 }
 
-#leftnav  ul {                       /*Tar bort punktmarkeringen i listan*/
+nav  ul {                       /*Tar bort punktmarkeringen i listan*/
 	list-style:none;
 }
 
-#leftnav ul li {                  /*  Sätter menyns bakgrundsfärg, marginaler */
+nav  ul li {                  /*  Sätter menyns bakgrundsfärg, marginaler */
 	width: auto;
 	background:#4D7368;
 	margin-bottom: 4px;
 }
 
-#leftnav ul li a {             /*Sätter meny textens färg samt marginaler mellan varrandra */                 
+nav  ul li a {             /*Sätter meny textens färg samt marginaler mellan varrandra */                 
 	display: block;
 	color: #F2F2F2;  
 	padding:4px 10px;
 }
 
-#leftnav ul li a:hover {        /* Anger färg på menyn vid aktivitet över menyfältet */
+nav  ul li a:hover {        /* Anger färg på menyn vid aktivitet över menyfältet */
 	color:#4D7368;
 	background:#F2F2F2;
 }
 
-#button .active a{
+nav  .active a{
 	background: blue;         /* Sätter färgen vid aktivt läge */
 }
 
-#Content {                                                     /* Sätter text stil på innehåll i content, break-word i hela dokumentet, max bredd på 100 % samt döljer scroll */
+main {                                                     /* Sätter text stil på innehåll i content, break-word i hela dokumentet, max bredd på 100 % samt döljer scroll */
     font-family: Verdana, Arial, Helvetica, sans-serif;
 	word-wrap: break-word;
 	max-width: 100%;
