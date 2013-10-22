@@ -2,14 +2,13 @@
 <html lang="sv">                  <!-- Talar om vilket språk innehållet är skrivet på -->
  <head>
  <meta name="viewport" content="width:device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes"/>
- 
 <meta charset="utf-8"/>           <!-- Talar om vilken teckenkodning som dokumenet är skapat -->
-<link href="../css/style1.css" rel="stylesheet" media="only screen and (min-width: 481px)" type="text/css"/>
-<link href="../css/print.css" rel="stylesheet" media="print"/>
-<link rel="shortcut icon" href="../css/pics/favicon (2).ico" type="image/x-icon" />
 
+<link rel="shortcut icon" href="../css/pics/favicon (2).ico" type="image/x-icon" />
 <link rel="apple-touch-icon" size="76x76 href="../css/pics/touch-icon-ipad.png" />
 
+<link href="../css/style1.css" rel="stylesheet" media="only screen and (min-width: 481px)" type="text/css"/>
+<link href="../css/print.css" rel="stylesheet" media="print"/>
 <link media="handheld, only screen and (max-width: 481px)" href="../css/mobile.css" type="text/css" rel="stylesheet" />
 
 
@@ -19,7 +18,7 @@
 
 <body>
 
-<div id = "container">
+<div id = "container">   
 
  
 <div id = "header">
@@ -53,10 +52,16 @@
   
   
    <div id=”content”> 
-   <p> Namn: Sahand Rajabion<br>
-    Adress: Gröndalsvägen 31 <br>
-    Mobil nr : 0735 -128 626
-</p>
+   <div id="hcard-Sahand-Rajabion" class="vcard">
+ <span class="fn">Sahand Rajabion</span>
+ <a class="email" href="mailto:sahandrajabion@gmail.com">sahandrajabion@gmail.com</a>
+ <div class="adr">
+  <div class="street-address">Ekängsgatan 7</div>
+  <span class="locality">Borås</span>
+, 
+  <span class="postal-code">50648</span>
+
+ </div>
 
 
 <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post" id="formular"> 
@@ -106,7 +111,7 @@ Efternamn:<br>
 
 
 E-postadress:<br>
-<input type="text" id="Epost" name="Epost"> <br>
+<input type="email" id="Epost" name="Epost"> <br>
 <p>Typ av Epost?</p>
 <input type="checkbox" name="typavmejl[]" id="gmail" value="gmail">
 <label for="gmail">Gmail</label><br>
@@ -136,13 +141,13 @@ Meddelande:<br>
 
 
 </div>
+</div>
 
+</div>
 
 <div id="footer">
 	<h6>Ansvarig för materialet på denna sida är Sahand Rajabion.</h6>
-</div>
 
-</div>
 </body>
 
 
